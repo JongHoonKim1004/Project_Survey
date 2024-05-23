@@ -71,33 +71,47 @@
 | ![Project_Survey_PPT_67](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/427e8dd3-f8ff-4fa8-aa38-6eba1363dbaf) | ![Project_Survey_PPT_68](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/18fdd796-1e01-4281-8e7d-0d51f650cc7f) |
 | ![Project_Survey_PPT_69](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/2f3c0f96-90f8-4553-b3e5-8c2a9ad2fbff) | |
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 </div>
+</details>
 
-  </details>
+## 💻 핵심 기능
+
+#### 설문조사
+- 설문조사의 시작일과 종료일 사이에 있는 (이용 가능한) 설문조사 목록을 출력
+- 설문조사의 각 질문에 응답할 때마다 서버에 응답을 전송, 서버에서는 DB에 저장과 동시에 조기종료 여부 확인
+- 설문조사가 조기종료 혹은 정상종료 될 경우, 회원에서 포인트 지급
+
+#### 일반회원
+- 소셜 로그인(네이버, 구글)
+- 이메일 중복확인
+- 비밀번호 암호화 처리
+- DAUM 주소 검색 API
+- 마이페이지(내 정보 관리, 내 포인트 관리, 포인트 변경 이력, 내 조사 관리, 내 1:1 문의 관리)
+- 아이디, 비밀번호 찾기
+
+#### 사업자
+- 회원정보 변경
+- 사업자 포인트 조회
+- PORTONE API 를 이용한 포인트 충전
+- 설문조사 목록 확인
+- 새로운 설문조사 생성
+
+#### 관리자
+- 설문조사 목록 확인
+- 공지사항 작성 및 수정
+- 자주묻는 답변 작성
+- 일반회원, 사업자 관리
+
+## 🎇 주요기능 실행화면
+<details>
+  <summary>주요기능 실행화면</summary>
+
+  * **메인 페이지**
+    * 메인 페이지의 로그인 화면을 통해 일반 로그인, 우측 상단의 `로그인`을 통해 일반 로그인, 소셜 로그인이 가능합니다
+   
+      ![login](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/e961bbca-6867-4fac-9163-c9d2529f9d9a)
+
+
+
+
+</details>
