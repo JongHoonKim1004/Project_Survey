@@ -108,10 +108,6 @@
 
   * **메인 페이지**
     * 메인 페이지의 로그인 화면을 통해 일반 로그인, 우측 상단의 `로그인`을 통해 일반 로그인, 소셜 로그인이 가능합니다
-   
-     https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/e961bbca-6867-4fac-9163-c9d2529f9d9a
-
-
-
+   ![PS_01_login socialLogin](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/d15792bb-ce78-461f-9bac-44ba31d9dc95)
 
 </details>
