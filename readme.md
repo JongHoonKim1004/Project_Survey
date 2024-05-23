@@ -33,11 +33,9 @@
 <details><summary>프로젝트 설계, 구현, PPT</summary>
 <div align="center">
     
-| ![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/838140ae-147c-4163-bce5-f07a2294ad39) | Are           |
+| ![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/838140ae-147c-4163-bce5-f07a2294ad39) | ![Project_Survey_PPT_02](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/7532b9e5-45d4-4969-b22f-3671e3dfea8a) |
 | :-------------: | :-------------: |
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| ![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/838140ae-147c-4163-bce5-f07a2294ad39) | ![Project_Survey_PPT_02](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/7532b9e5-45d4-4969-b22f-3671e3dfea8a) |
     
 </div>
 
