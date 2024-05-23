@@ -31,10 +31,10 @@
 
   ## 👾 프로젝트 설계, 구현 📂 PPT 📂 (ERD, USECASE)
 <details><summary>프로젝트 설계, 구현, PPT</summary>
-    <div align="center">
+    
       |제목|내용|
       |-----|---|
       |1|2|
-    </div>
+    
 
   </details>
