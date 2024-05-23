@@ -23,7 +23,7 @@
   - 개발 기간 : 24/04/24 ~ 24/05/22
 
   ## 🔧 기술 스택
-  - API : `다음 주소 API`, `PORTONE API`, `네이버 API`, `Google API`
+  - API : `다음 주소 API`, `PORTONE API`, `네이버 API`, `Google API`, `CKEditor`
   - Language : `Java(17)`, `JavaScript(ES6)`
   - Database : `MySQL(8.0)`
   - Target : `Web Browser`
@@ -151,22 +151,71 @@
   * **사업자**
     
     * **회원정보 변경**
-      * 메인페이지에서 우측 상단의 `사업자 로그인`을 통해 사업자 로그인 페이지에서 로그인이 가능합니다.
+      * 메인 페이지에서 우측 상단의 `사업자 로그인`을 통해 사업자 로그인 페이지에서 로그인이 가능합니다.
       * 로그인 후, 좌측 사이드바의 `회원정보 변경` 을 통해 사업자 정보를 변경할 수 있습니다
      
       ![PS_07_MemberPage infoModify](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/faf7d702-24a9-4f93-88a0-424dfdd9fd40)
 
-  * **포인트 관리**
-    * 좌측 사이드바의 `포인트 관리` -> `포인트 변경 이력` 을 통해 포인트가 사용되고 충전한 이력을 확인할 수 있습니다
-    * `포인트 충전` 에서는 포인트 충전을 할 수 있고, `충전하기` 을 클릭하면 PORTONE API를 이용한 결제 모듈이 호출되며 결제가 정상적으로 완료되면 포인트가 충전됩니다.
+    * **포인트 관리**
+      * 좌측 사이드바의 `포인트 관리` -> `포인트 변경 이력` 을 통해 포인트가 사용되고 충전한 이력을 확인할 수 있습니다
+      * `포인트 충전` 에서는 포인트 충전을 할 수 있고, `충전하기` 을 클릭하면 PORTONE API를 이용한 결제 모듈이 호출되며 결제가 정상적으로 완료되면 포인트가 충전됩니다.
    
-    ![PS_08_MemberPoint](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/bf24f2c7-ce26-4a61-a02b-838682b0e2fb)
+      ![PS_08_MemberPoint](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/bf24f2c7-ce26-4a61-a02b-838682b0e2fb)
 
-  * **설문조사 관리**
-    * 좌측 사이드바의 `설문조사 관리` -> `설문조사 목록` 에서는 사업자가 생성한 모든 설문조사가 호출됩니다.
-    * `설문조사 참여인원 목록` 에서는 사업자의 설문조사에 참여한 인원을 확인할 수 있습니다.
+    * **설문조사 관리**
+      * 좌측 사이드바의 `설문조사 관리` -> `설문조사 목록` 에서는 사업자가 생성한 모든 설문조사가 호출됩니다.
+      * `설문조사 참여인원 목록` 에서는 사업자의 설문조사에 참여한 인원을 확인할 수 있습니다.
 
-    ![PS_09_MemberSurveyList](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/70e3df11-7d39-4508-8bbe-4135695236b6)
+      ![PS_09_MemberSurveyList](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/70e3df11-7d39-4508-8bbe-4135695236b6)
 
+    * **설문조사 생성**
+      * 설문조사의 기본 정보를 입력하고 `등록하기`를 클릭하면 질문을 등록하는 페이지로 이동합니다.
+      * 질문은 새로 추가하고 삭제할 수 있으면 각 질문 유형에 따른 입력 창을 제공합니다
+      * 모든 질문을 저장하고 `설문조사 저장하기`를 클릭하면 설문조사 생성이 완료됩니다
+   
+      ![PS_10_MemberSurveyCreate](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/4f50b495-55d8-4119-88c4-d4a1df4ef200)
 
-</details>
+  * **관리자**
+
+    *  **관리자 로그인**
+      * 메인 페이지에서 우측 상단의 `관리자 로그인`을 통해 관리자 로그인 페이지에 들어갈 수 있습니다.
+      * 관리자 페이지 우측 상단의 `로그아웃`을 통해 로그아웃 할 수 있습니다.
+   
+    ![PS_11_AdminDashboard](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/696f4580-2dfe-4131-94bb-ae5fd7d0de5d)
+
+    * **설문조사 관리**
+      * 모든 사업자의 모든 설문조사가 호출되며, 설문조사의 확인 삭제가 가능합니다.
+
+      ![PS_12_AdminSurveyList](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/cdb608f4-7472-4ddf-ab90-5c80cb2d1af7)
+
+    * **1:1 문의 관리**
+      * 좌측 사이드바의 `1:1 문의 관리`를 클릭하면 1:1 문의 목록 페이지로 이동합니다.
+      * 제목을 클릭하면 해당 문의를 상세히 볼 수 있으며 답글이 작성되어있다면 답글도 확인할 수 있습니다.
+      * `답글 작성하기` 버튼을 통해 답글을 작성하는 공간을 호출하여 답글을 작성할 수 있습니다.
+     
+      ![PS_13_VOC Reply](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/f9c1f147-bcaf-41bc-a66b-0f301efd7e25)
+
+    * **사업자 관리**
+      * 좌측 사이드바의 `사업자 관리` -> `사업자 목록`을 통해 사업자 목록을 호출하고, 정보를 확인할 수 있는 페이지로 이동할 수 있습니다.
+      * `새 사업자 등록`을 통해 새로운 사업자를 등록할 수 있으며, `중복 확인` 을 통해 이메일 중복 여부 확인, `우편번호 찾기`를 통해 DAUM 주소 찾기 API를 호출하여 주소를 등록할 수 있습니다.
+     
+      ![PS_14_AdminMemberCreate](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/3c82bb8a-d592-4215-83f2-7adfd30d8b10)
+
+    * **공지사항 관리**
+      * 좌측 사이드바의 `공지사항 관리` -> `공지사항 목록`을 통해 공지사항 목록을 호출하고, 공지사항 내용을 확인할 수 있는 페이지로 이동할 수 있습니다.
+      * `새 공지사항 작성`을 통해 공지사항 작성 페이지로 이동할 수 있고 여기서 내용을 입력하는 도구로 CKEditor 를 호출합니다.
+     
+       ![PS_15_AdminNotice](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/a361d5bf-d4b6-4286-9c31-c36111a10185)
+
+    * **자주묻는 질문 관리**
+      * 좌측 사이드바의 `자주묻는 질문 관리` -> `자주묻는 질문 목록`을 통해 자주묻는 질문 목록을 호출하고, 질문의 내용을 확인하는 페이지로 이동할 수 있습니다.
+      * `새로운 질문 작성`을 통해 자주묻는 질문 작성 페이지로 이동할 수 있습니다.
+     
+      ![PS_16_AdminFAQ](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/3936fb19-c42b-4948-bd6b-17c2985b67a8)
+
+</details> 
+
+## 🌄 개선사항
+- 일반회원의 설문조사 참여에 관한 알고리즘 구성
+- 일반회원의 적립된 포인트 사용처 확보
+- 설문조사 생성 시 조기종료 조건의 구체화
