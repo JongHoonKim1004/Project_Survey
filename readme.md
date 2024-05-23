@@ -32,7 +32,7 @@
   ## 👾 프로젝트 설계, 구현 📂 PPT 📂 (ERD, USECASE)
 <details><summary>프로젝트 설계, 구현, PPT</summary>
     <div align="center">
-      |![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/f5135927-4b6d-4fec-9646-5b8a66065d4e) | ![Project_Survey_PPT_02](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/179b6625-6332-4b05-aaaf-6a0e59ddaaab) |
+      ![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/bd148b24-f2bb-4790-a320-73b56350c844)
       
     </div>
 
