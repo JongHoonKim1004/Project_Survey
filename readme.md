@@ -163,7 +163,10 @@
     ![PS_08_MemberPoint](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/bf24f2c7-ce26-4a61-a02b-838682b0e2fb)
 
   * **설문조사 관리**
-    * 좌측 사이드바의 `설문조사 관리` -> `설문조사 목록` 에서는 사업자가 생성한 모든 설문조사가 호출됩니다
-   
-    * `설문조사 참여인원 목록` 에서는 사업자의 설문조사에 참여한 인원을 확인할 수 있습니다
+    * 좌측 사이드바의 `설문조사 관리` -> `설문조사 목록` 에서는 사업자가 생성한 모든 설문조사가 호출됩니다.
+    * `설문조사 참여인원 목록` 에서는 사업자의 설문조사에 참여한 인원을 확인할 수 있습니다.
+
+    ![PS_09_MemberSurveyList](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/70e3df11-7d39-4508-8bbe-4135695236b6)
+
+
 </details>
