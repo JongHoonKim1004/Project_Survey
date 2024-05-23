@@ -33,7 +33,8 @@
 <details><summary>프로젝트 설계, 구현, PPT</summary>
 <div align="center">
     
-| Tables        | Are           |
+| ![Project_Survey_PPT_01](https://github.com/JongHoonKim1004/Project_Survey/assets/155927559/838140ae-147c-4163-bce5-f07a2294ad39)
+        | Are           |
 | ------------- | ------------- |
 | col 3 is      | right-aligned |
 | col 2 is      | centered      |
