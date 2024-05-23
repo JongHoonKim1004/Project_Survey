@@ -5,17 +5,17 @@
   
   ## 목차
   
-  - [개요](https://github.com/JongHoonKim1004/ProjectReact#-개요)
+  - [개요](https://github.com/JongHoonKim1004/Project_Survey#-개요)
   
-  - [기술 스택](https://github.com/JongHoonKim1004/ProjectReact#-기술-스택)
+  - [기술 스택](https://github.com/JongHoonKim1004/Project_Survey#-기술-스택)
     
-  - [프로젝트 설계](https://github.com/JongHoonKim1004/ProjectReact#-프로젝트-설계)
+  - [프로젝트 설계](https://github.com/JongHoonKim1004/Project_Survey#-프로젝트-설계)
     
-  - [핵심 기능](https://github.com/JongHoonKim1004/ProjectReact#-핵심-기능)
+  - [핵심 기능](https://github.com/JongHoonKim1004/Project_Survey#-핵심-기능)
     
-  - [주요기능 실행화면](https://github.com/JongHoonKim1004/ProjectReact#-주요기능-실행화면)
+  - [주요기능 실행화면](https://github.com/JongHoonKim1004/Project_Survey#-주요기능-실행화면)
     
-  - [개선사항](https://github.com/JongHoonKim1004/ProjectReact#-개선사항)
+  - [개선사항](https://github.com/JongHoonKim1004/Project_Survey#-개선사항)
 
 
   ## 🚩 개요
